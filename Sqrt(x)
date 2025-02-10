@@ -1,0 +1,30 @@
+class Solution {
+public:
+    int mySqrt(int n) {
+
+        if(n<2){
+        return (int)n;
+    }
+
+    long long left=0, right= n/2, result=0;
+
+    while(left<=right){
+        long long mid = left + (right-left)/2;
+        long long m = mid*mid;
+
+        if(m==n){
+            return (int)mid;
+        }
+        else if(m<n){
+            left=mid+1;
+            result=mid;
+        }
+        else{
+            right = mid-1;
+        }
+
+    }
+
+    return (int)result;
+}
+};
