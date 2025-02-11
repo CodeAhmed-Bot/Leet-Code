@@ -1,6 +1,6 @@
 # LeetCode Solutions Repository
 
-Welcome to my **LeetCode Solutions Repository**! This repository contains solutions to various problems from [LeetCode](https://leetcode.com/), covering a wide range of topics in algorithms and data structures. Each solution is written with clarity and efficiency in mind, and organized by problem type and difficulty.
+Welcome to my **LeetCode Solutions Repository**! This repository contains solutions to various problems from [LeetCode](https://leetcode.com/), covering a wide range of topics in algorithms and data structures. Each solution is written with clarity and efficiency in mind, and organized by problem name.
 
 ## 📂 Repository Structure
 
